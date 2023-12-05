@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Marmeto PLP</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+
+</head>
+
+<body>
+    <section class="container">
+        <h1>PLP</h1>
+        <div class = "search-box">
+            <input type="text" id = "search-item" placeholder="Type Something to search"  onkeyup="displayProducts()">
+            <button onclick="listView()"><i class="fa fa-th-list"></i></button>
+            <button onclick="gridView()"><i class="fa fa-th-large"></i></button>
+        </div>
+
+        
+        <div id="product-container" class="product-container"></div>
+
+        <script src="/script.js"></script>
+    
+</body>
+
+</html>
